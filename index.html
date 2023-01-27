@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/iconSpecialisterne3.png" type="image/x-icon" />
+  <title>FORMAÇÃO SPECIALISTERNE</title>
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+  <!-- Progress Bar -->
+  <script src="js/progressbar.min.js"></script>
+  <!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container" id="nav-container">
+      <!-- add essa class -->
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="img/iconSpecialisterne3.png" alt="logo Specialistene"> Formação Specialisterne Brasil
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" id="home-menu" href="#">Home</span></a>
+            <a class="nav-item nav-link" id="about-menu" href="#">A Specialisterne</a>
+            <a class="nav-item nav-link" id="services-menu" href="#">Serviços</a>
+            <a class="nav-item nav-link" id="team-menu" href="#">Time</a>
+            <a class="nav-item nav-link" id="portfolio-menu" href="#">Formação</a>
+            <a class="nav-item nav-link" id="contact-menu" href="#">Contato</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <!-- slider -->
+      <div id="mainSlider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+          <li data-target="#mainSlider" data-slide-to="1"></li>
+          <li data-target="#mainSlider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/banner1.png" class="d-block w-100" alt="Projetos de e-commerce">
+
+            <!-- tirar classe d-none -->
+
+            <div class="carousel-caption d-md-block">
+              <h2>A Specialisterne é uma organização social.</h5>
+              <h5>Que proporciona emprego a pessoas com talentos específicos.</h5>
+              <p>Com sua formação técnica e sociolaboral, sempre presente a figura de um coach, que trabalha lado a lado para que a inclusão seja bem sucedida </p>
+              <a href="#" class="main-btn">Entre em contato</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner2.png" class="d-block w-100" alt="Engenharia de software">
+            <div class="carousel-caption d-md-block">
+              <h2>Buscamos valorizar as características
+                especiais das pessoas com autismo.</h5>
+              <p>Assim, oferecemos às pessoas com autismo formação e oportunidades de trabalho. E, para as empresas, proporcionamos talento e conhecimento sobre como incluir a neurodiversidade em suas equipes. Buscamos que as pessoas neurodivergentes melhorem e valorizem suas capacidades, em muitos casos especialmente adequadas para determinadas tarefas, e também que as empresas obtenham todos os benefícios de incluir estas pessoas e gerar um impacto social positivo.</p>
+              <a href="#" class="main-btn">Entre em contato</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner3.png" class="d-block w-100" alt="Manutenção em software">
+            <div class="carousel-caption d-md-block">
+              <h2>A Specialisterne nasceu na Dinamarca em 2004</h5>
+              <p>Specialisterne significa, em dinamarquês, “os especialistas”, e é o nome da fundação dinamarquesa e do conceito original desenvolvido por Thorkil Sonne. A marca Specialisterne pertence à Fundação Specialisterne, que trabalha para ajudar a criar um milhão de empregos para pessoas com autismo e diagnósticos similares por meio do empreendedorismo social, da participação do setor empresarial e público, e de uma mudança global de mentalidade.<br>A Fundação Specialisterne é associada às Nações Unidas.</p>
+              
+              <a href="#" class="main-btn">Entre em contato</a>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- Sobre a empresa -->
+      <div id="about-area">
+        <div class="container">
+            <div class="row">
+              <div class="col-12"> 
+                <h3 class="main-title">Sobre a Specialisterne</h3>
+              </div>
+              <div class="col-md-6">
+                <img class="img-fluid" src="img/SP-Brasil-predio-1-scaled.jpg" alt="Foto do prédio em São Paulo">
+              </div>
+              <div class="col-md-6">
+                <h3 class="about-title">Buscamos valorizar as características
+                  especiais das pessoas com autismo.</h3>
+
+                    <P>A Specialisterne é uma organização social, nascida na Dinamarca em 2004 e com presença em 23 países, que se dedica à inclusão profissional de pessoas com autismo e outros diagnósticos na neurodiversidade.</p>
+
+                      <p>Assim, oferecemos às pessoas com autismo formação e oportunidades de trabalho. E, para as empresas, proporcionamos talento e conhecimento sobre como incluir a neurodiversidade em suas equipes. Buscamos que as pessoas neurodivergentes melhorem e valorizem suas capacidades, em muitos casos especialmente adequadas para determinadas tarefas, e também que as empresas obtenham todos os benefícios de incluir estas pessoas e gerar um impacto social positivo.</p>
+                   
+                      
+                          <p>significa, em dinamarquês, “os especialistas”, e é o nome da fundação dinamarquesa e do conceito original desenvolvido por Thorkil Sonne. A marca Specialisterne pertence à Fundação Specialisterne, que trabalha para ajudar a criar um milhão de empregos para pessoas com autismo e diagnósticos similares por meio do empreendedorismo social, da participação do setor empresarial e público, e de uma mudança global de mentalidade. A Fundação Specialisterne é associada às Nações Unidas.</p>
+                          
+                         </div>
+                       </div>
+                     </div>
+                 </div>
+
+      <!-- Serviços da empresa -->
+      <div id="services-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h3 class="main-title">VALORES</h3>
+            </div>
+            <div class="col-md-4 service-box">
+              <i class=""></i>
+              <h4>Respeito</h4>
+              <p>Nós nos esforçamos para criar um ambiente de trabalho abrangendo a diversidade e respeitando as necessidades e as habilidades dos indivíduos.</p>
+            </div>
+            <div class="col-md-4 service-box">
+              <i class=""></i>
+              <h4>Adaptação</h4>
+              <p>Escutamos, aprendemos e apoiamos uns aos outros.</p>
+            </div>
+            <div class="col-md-4 service-box">
+              <i class=""></i>
+              <h4>Acessibilidade</h4>
+              <p>Compartilhamos conhecimentos e experiências e trabalhamos abertamente com nossos parceiros externos.</p>
+            </div>
+            <div class="col-md-4 service-box">
+              <i class=""></i>
+              <h4>Transparência</h4>
+              <p>Cumprimos as nossas promessas e estabelecemos metas claras.</p>
+            </div>
+            <div class="col-md-4 service-box">
+              <i class=""></i>
+              <h4>Sustentabilidade e escalabilidade</h4>
+              <p>Buscamos replicar o modelo da Specialisterne e multiplicar seu impacto social de forma economicamente sustentável.</p>
+            </div>
+            <div class="col-md-4 service-box">
+              <i class=""></i>
+              <h4>Experiência em servidores</h4>
+              <p>Garantimos uptime e também rápido tempo de resposta do seu site para o seu cliente.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Dados da empresa -->
+      <div id="data-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-xs-6 circle-box">
+              <div id="circleA"></div>
+              <p>Descobrindo Talentos</p>
+            </div>
+            <div class="col-md-3 col-xs-6 circle-box">
+              <div id="circleB"></div>
+              <p>Formação Técnica</p>
+            </div>
+            <div class="col-md-3 col-xs-6 circle-box">
+              <div id="circleC"></div>
+              <p>Formação Socioprofissional</p>
+            </div>  
+            <div class="col-md-3 col-xs-6 circle-box">
+              <div id="circleD"></div>
+              <p>Resultado - Trabalho</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Time -->
+      <div id="team-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Equipe Multidisciplinar</h3>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/Aline-Souza-Analista-de-Diversidade-e-Inclusao.-min-C.jpg" class="card-img-top" alt="ESPECIALISTA EM DESENVOLVIMENTO PROFISSIONAL
+                Aline Souza">
+                <div class="card-body">
+                  <h5 class="card-title">Aline Souza</h5>
+                  <p class="card-text">DESENVOLVIMENTO PROFISSIONAL</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/Leandro-Silva-Coordenador-de-Formacao-1-scaled-C.jpg" class="card-img-top" alt="Leandro Silva COORDENADOR DE FORMAÇÃO">
+                <div class="card-body">
+                  <h5 class="card-title">Leandro Silva</h5>
+                  <p class="card-text">COORDENADOR DE FORMAÇÃO</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/Foto-Luanaok-C.png" class="card-img-top" alt="ESPECIALISTA EM DESENVOLVIMENTO PROFISSIONAL Luana Dantas">
+                <div class="card-body">
+                  <h5 class="card-title">Luana Dantas</h5>
+                  <p class="card-text">DESENVOLVIMENTO PROFISSIONAL</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/Murilo-TI-1-C.png" class="card-img-top" alt="FORMADOR DE TI Murilo Paiva">
+                <div class="card-body">
+                  <h5 class="card-title">Murilo Paiva</h5>
+                  <p class="card-text">FORMADOR DE TI</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/Daiane-1-C.png" class="card-img-top" alt="EM DESENVOLVIMENTO PROFISSIONAL">
+                <div class="card-body">
+                  <h5 class="card-title">Daiane Lourenço</h5>
+                  <p class="card-text">DESENVOLVIMENTO PROFISSIONAL</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/Retratos-Specialisterne-Brasil-33-c.jpg" class="card-img-top" alt="ADMINISTRATIVO E FINANCEIRO Igor Feracini">
+                <div class="card-body">
+                  <h5 class="card-title">Igor Feracini</h5>
+                  <p class="card-text">ADMINISTRATIVO E FINANCEIRO</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/Natasha.jpg" class="card-img-top" alt="ESPECIALISTA EM DESENVOLVIMENTO PROFISSIONAL
+                Aline Souza">
+                <div class="card-body">
+                  <h5 class="card-title">Natasha Ribeiro</h5>
+                  <p class="card-text">DESENVOLVIMENTO PROFISSIONAL</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/Andressa-Santos-Analista-de-Diversidade-e-Inclusao-scaled-C.jpg" class="card-img-top" alt="ESPECIALISTA EM DESENVOLVIMENTO PROFISSIONAL Andressa Santos">
+                <div class="card-body">
+                  <h5 class="card-title">Andressa Santos</h5>
+                  <p class="card-text">DESENVOLVIMENTO PROFISSIONAL</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/Rute-Rodrigues-Gerente-de-Formacao-scaled-C.jpg" class="card-img-top" alt="DIRETORA DE OPERAÇÕES Rute Rodrigues">
+                <div class="card-body">
+                  <h5 class="card-title">Rute Rodrigues</h5>
+                  <p class="card-text">DIRETORA DE OPERAÇÕES</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/Retratos-Specialisterne-Brasil-25-scaled-c.jpg" class="card-img-top" alt="DIRETOR GERAL Marcelo Vitoriano">
+                <div class="card-body">
+                  <h5 class="card-title">Marcelo Vitoriano</h5>
+                  <p class="card-text">DIRETOR GERAL</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <!-- Trabalhe conosco -->
+      <div id="apply-area">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 apply-box" id="company-img"></div>
+            <div class="col-md-6 apply-box" id="pattern-img">
+              <h4>SPECIALISTERNE PARA</h4>
+              
+              <p>
+                Um mundo onde todas as pessoas tenham oportunidades iguais no mercado de trabalho.</p>
+                
+              <p>PROPORCIONAR FORMAÇÃO E EMPREGO PARA PESSOAS AUTISTAS</p>
+              <p>DIVULGAR O VALOR DA NEURODIVERSIDADE NO LOCAL DE TRABALHO</p>
+              <p>DISSEMINAR NOSSO CONHECIMENTO E COMPARTILHAR NOSSAS MELHORES PRÁTICAS</p>
+              <a href="#" class="main-btn" id="apply-btn">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      
+      <div id="apply-area">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6" id="company-img"></div>
+            <div class="col-md-6" id="img/dente-de-leão">
+              <img src="img/iconSpecialisterne3.png" alt="some text" width=55 height=55 > 
+              <h1>Specialisterne Brasil</h1>
+              <h2>Nosso logotipo é a semente do dente-de-leão.</h2>
+               <p>O dente-de-leão é visto como uma erva daninha para a maioria das pessoas – algo que precisa ser erradicado de nossos gramados e vasos de flores. Mas o que muita gente não sabe é que, quando cultivado, o dente-de-leão é uma das plantas mais valiosas e úteis da natureza, bem conhecida por suas propriedades medicinais e da culinária. O valor do dente-de-leão depende muito do conhecimento de cada um sobre esta planta. A maioria de nós não o quer em nossos jardins – ele não serve. Mas se você plantar sementes de dente-de-leão e cultivá-las, ela terá um grande valor. O dente-de-leão é utilizado na produção de cerveja e vinho, em saladas e como medicamento natural. Simplificando, cultive-o e você colherá as recompensas.</p>
+                
+                <h2>Boa planta ou erva daninha? <br>Você decide!<br>O valor do que você vê depende de quem você é.</h2>
+                Vemos um claro paralelo entre a percepção do dente-de-leão na natureza e a percepção das pessoas com autismo e neurodivergentes em geral como potenciais trabalhadores. Na Specialisterne, vemos o valor que as pessoas podem trazer para a neurodiversidade onde outras não podem.
+                
+                O quadrado azul do logotipo ao redor do dente-de-leão representa o céu aberto de oportunidades, com um canto arredondado para ilustrar que mesmo estando em um mercado difícil, adaptamos o ambiente ao indivíduo. As letras ‘I’ em Specialisterne têm a cor amarela de uma flor de dente-de-leão madura.
+                
+                O lema “Paixão pelos detalhes” reafirma o foco de todas as nossas atividades e está integrado na atuação da nossa empresa.
+
+                
+                
+                
+                
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      
+      <!-- Portfólio -->
+      <div id="portfolio-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title">Conheça o projeto</h3>
+            </div>
+            <div class="col-md-12" id="filter-btn-box">
+              <button class="main-btn filter-btn active" id="all-btn">Formação Técnica</button>
+              <button class="main-btn filter-btn" id="dev-btn">Formação Habilidades Socias </button>
+              <button class="main-btn filter-btn" id="seo-btn">Atividades Diária</button>
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="img/proj1.jpg" class="img-fluid" alt="Projeto 1">
+            </div>
+            <div class="col-md-4 project-box dsg">
+              <img src="img/proj2.jpg" class="img-fluid" alt="Projeto 2">
+            </div>
+            <div class="col-md-4 project-box seo">
+              <img src="img/proj3.jpg" class="img-fluid" alt="Projeto 3">
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="img/dados.png" class="img-fluid" alt="Projeto de cloud análise de dados">
+              <p>Análise de dados: Nesse treinamento eu aprendi a realizar análise de dados comparar o desempenho dos participantes e identificar de maneira analitica aquele com melhor desempenho. 
+              </p>
+            </div>
+            <div class="col-md-4 project-box dsg">
+              <img src="img/My project (20).jpg" class="img-fluid" alt="Projeto 5">
+              <p>Aplicativo: Jogo da memória - "Memorama" Temas variados para jogar: Animais, Frutas, Objetos ou das suas próprias fotos.</p>
+            </div>
+            <div class="col-md-4 project-box seo">
+              <img src="img/scrum.png" class="img-fluid" alt="Projeto 6">
+              <p>Metodologia Scrum: Para equipes de
+                desenvolvimento ágil. O jogo é uma prática de
+                estimativa comum que promove
+                conversas, aumenta a
+                transparência e evita o efeito de
+                ancoragem. O baralho pode ser físico ou virtual</p>                
+          </div>
+          <div class="col-md-4 project-box dev">
+            <img src="img/homeoffice.png" class="img-fluid" alt="Dicas Home Office">
+            <P>Dicas Home Office - Introdução ao mundo do trabalho</p>
+          </div>
+          <div class="col-md-4 project-box dev">
+            <img src="img/SPCorner_Excel.png" class="img-fluid" alt="Simbolo da logomarca do Excel, letra x cor branca e fundo verde">
+            <p>Uma planilha permite que você organize os dados rapidamente e, graças às tabelas dinâmicas, você pode cruzar os dados e ter tudo na mesma planilha.</p>
+          </div>
+          <div class="col-md-4 project-box dev">
+            <img src="img/Diversidad.png" class="img-fluid" alt="lápis coloridos Diversidade e Inclusão">
+            <p>
+              Diversidade e Inclusão
+              Diversidade é um conceito que com o tempo adquiriu maior relevância na sociedade. Refere-se à existência de diferenças entre as pessoas (idade, gênero, etnia, crenças religiosas, habilidades).
+              
+              Este curso tem como objetivo normalizar essas diferenças e destacar o valor acrescentado que trazem para o mundo do trabalho.</p>
+          </div>
+        </div>
+      </div>
+
+     
+      <!-- Newsletter -->
+      <div id="news-area">
+        <div class="container">
+          <div class="col-md-12">
+            <h3 class="main-title">Fique por dentro das novidades</h3>
+          </div>
+          <p>Assine nossa lista de e-mails, e receba nossos conteúdos sobre nossos treinamentos.</p>
+          <form action="">
+            <input type="text" class="form-control" id="email-input" name="email" placeholder="Seu melhor e-mail">
+            <input type="submit" id="news-btn" value="Cadastro">
+          </form>
+        </div>
+      </div>
+      <!-- Call -->
+      <div id="call-area">
+        <div class="container">
+            <div class="row">
+              <p>Deseja fazer parte do nosso time?</p>
+              <button class="main-btn" id="call-btn">Com certeza</button>
+            </div>
+          </div>
+      </div>
+    </div>
+  </main>
+  <!-- Rodapé -->
+  <footer>
+    <div id="contact-area">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title">Entre em contato conosco</h3>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-phone"></i>
+              <p><span class="contact-tile">Ligue para:</span> +55 (11) 3129-8056 </p>
+              <p><span class="contact-tile">Horários:</span> 9:00 - 18:00</p>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-envelope"></i>
+              <p><span class="contact-tile">Envie um email:</span> contato.br@specialisterne.com</p>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-map-marker-alt"></i>
+              <p><span class="contact-tile">Venha tomar um cafézinhos:</span><p>Av. Angélica, 2447 – cj 25 – Consolação
+                01227-200 São Paulo / SP</p>
+ 
+            </div>
+            <div class="col-md-6" id="msg-box">
+              <p>Se preferir pode deixar uma mensagem:</p>
+            </div>
+            <div class="col-md-6" id="contact-form">
+              <form action="">
+                <input type="text" class="form-control" placeholder="E-mail" name="email">
+                <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+                <input type="submit" class="main-btn">
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div id="copy-area">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <p>Treinamento Renato Costa</p><p>Rio Janeiro</p>&copy; 2023</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
